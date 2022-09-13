@@ -13,80 +13,71 @@ section{
     .div1 {
         background-color: rgb(255, 255, 255);
         display: block;
+        box-sizing: border-box;
         position: relative;
+        padding: 25px;
         margin: auto;
-        height: 30vh;
         width: 75%; 
         flex-direction: column;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        justify-content: space-between;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     .div1 h1{
+        margin-top: 15px;
         font-size: 3.5vw;
         color: #369f9a;
         font-weight: 700;
-        margin-left: 30px;
-        padding-top: 20px;
     }
     .div1 h2{
         font-size: 2.5vw;
         color: #bfdf32;
         font-weight: 700;
-        margin-left: 30px;
-        margin-right: 35px;
-        padding-top: 15px;
+        margin-top: 20px;
     }
     .div1 h3{
-        position:sticky;
+        display: block;
         font-size: 2.25vw;
         color: #a7abb7;
         font-weight: 400;
-        margin-left: 30px;
-        padding-top: 20px;
-        margin-right: 35px;
-        
+        margin-top: 10px;
+        width: 90%;
     }
     .div2 {
         background-color: #2bb3b1;
         display: block;
+        box-sizing: border-box;
         position: relative;
-        margin: -25px auto;
-        height: 30vh;
+        margin: auto;
+        padding: 25px;
         width: 75%;
         flex-direction: column;
+        justify-content: space-between;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     .div2 h1{
+        margin-top: 10px;
         font-size: 3.5vw;
         color: #ffffff;
         font-weight: 700;
-        margin-left: 30px;
-        padding-top: 20px;
     }
     .div2 h2{
+        margin-top: 25px;
         font-size: 4.5vw;
         color: #ffffff;
         font-weight: 700;
-        margin-left: 30px;
-        margin-right: 35px;
-        padding-top: 15px;
     }
     .div2 h2 span{
         font-size: 2.5vw;
         color: #efefef;
         font-weight: 500;
-        padding-top: 15px;
     }
     .div2 h3{
+        margin-top: 25px;
         font-size: 3vw;
         color: #ffffff;
         font-weight: 400;
-        margin-left: 30px;
-        padding-top: 15px;
-        padding-bottom: 25px;
-        margin-right: 35px;
-        margin-block-end: 25px;
     }
     .div2 .botao{
         display: flex;
@@ -94,8 +85,8 @@ section{
         justify-content: center;
         background-color: hsl(71, 73%, 54%);
         margin: auto;
-        position: relative;
-        bottom: 25px;
+        margin-top: 30px;
+        margin-bottom: 10px;
         border-radius: 10px;
         height: 50px;
         width: 75%;
@@ -108,32 +99,151 @@ section{
         background-color: #4abebd;
         display: block;
         position: relative;
+        box-sizing: border-box;
+        padding: 25px;
         margin: auto;
-        margin-top: 25px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        height:30vh;
         width: 75%;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-bottom: 50px;
+    }
+
+    .div3 h2{
+        margin-top: 10px;
+        font-size: 3.5vw;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .div3 h4{
+        margin-top: 20px;
+        font-size: 2vw;
+        color: #ffffff;
+        font-weight: 400;
+        justify-content: space-between;
+        line-height: 6vh;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .div1 {
+        background-color: rgb(255, 255, 255);
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+        padding: 25px;
+        margin: auto;
+        width: 50%; 
+        flex-direction: column;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        justify-content: space-between;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .div1 h1{
+        margin-top: 15px;
+        font-size: 2vw;
+        color: #369f9a;
+        font-weight: 700;
+    }
+    .div1 h2{
+        font-size: 1.5vw;
+        color: #bfdf32;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    .div1 h3{
+        display: block;
+        font-size: 1.2vw;
+        color: #a7abb7;
+        font-weight: 400;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .div2mae{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        margin: auto;
+        width: 50%;
+    }
+
+    .div2 {
+        background-color: #2bb3b1;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        flex-direction: column;
+        box-sizing: border-box;
+        border-bottom-left-radius: 10px;
+        padding: 25px;
+        width: 50%;
+    }
+    .div2 h1{
+        margin-top: 10px;
+        font-size: 2vw;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .div2 h2{
+        margin-top: 15px;
+        font-size: 2.5vw;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .div2 h2 span{
+        font-size: 1vw;
+        color: #efefef;
+        font-weight: 500;
+    }
+    .div2 h3{
+        margin-top: 15px;
+        font-size: 1vw;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .div2 .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(71, 73%, 54%);
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        height: 50px;
+        width: 90%;
+        text-decoration: none;
+        color: white;
+        box-shadow: 1px 1px 13px -3px rgba(0,0,0,0.38);
+    }
+
+    .div3 {
+        background-color: #4abebd;
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        padding: 25px;
+        border-bottom-right-radius: 10px;
+        width: 50%;
         flex-direction: column;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
     .div3 h2{
-        font-size: 3.5vw;
+        margin-top: 10px;
+        font-size: 2vw;
         color: #ffffff;
         font-weight: 700;
-        margin-left: 30px;
-        padding-top: 20px;
     }
 
     .div3 h4{
-        font-size: 2vw;
+        margin-top: 20px;
+        font-size: 1vw;
         color: #ffffff;
         font-weight: 400;
-        margin-left: 30px;
-        padding-top: 20px;
         justify-content: space-between;
-        line-height: 2.5vh;
+        line-height: 4vh;
     }
 }
-
